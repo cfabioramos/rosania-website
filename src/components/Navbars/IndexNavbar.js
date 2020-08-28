@@ -52,17 +52,17 @@ function IndexNavbar() {
       ) : null}
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="info">
         <Container>
-          <div className="navbar-translate">
+          <div className="navbar-translate" id="home">
             <NavbarBrand
-              href="https://demos.creative-tim.com/now-ui-kit-react/#/index?ref=nukr-index-navbar"
-              target="_blank"
-              id="navbar-brand"
-            >
-              Sobre mim
+              href="#home"
+              id="navbar-brand">
+             Início
             </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Designed and Coded by Carlos Fábio Ramos Conceição.
-            </UncontrolledTooltip>
+            <NavbarBrand
+              href="#aboutme"
+              id="navbar-brand">
+             Sobre mim
+            </NavbarBrand>
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {

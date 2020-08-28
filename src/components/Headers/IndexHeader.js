@@ -39,8 +39,8 @@ function IndexHeader() {
               className="n-logo"
               src={require("assets/img/now-logo.png")}
             ></img>
-            <h1 className="h1-seo">Rosania Macedo para deputada de Salvador</h1>
-            <h3>Sempre em busca de uma melhor qualidade de vida para os Baianos.</h3>
+            <h1 className="h1-seo">Rozania Macedo Pré-Candidata a Vereadora de Salvador</h1>
+            <h3>Sempre em busca de uma melhor qualidade de vida para os baianos.</h3>
           </div>
           <h6 className="category category-absolute">
             Designed by{" "}
