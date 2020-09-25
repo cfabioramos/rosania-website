@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 
 // core components
 
-function CompleteExamples() {
+function AboutMe() {
   return (
     <>
       <div className="section" id="aboutme">
@@ -44,6 +44,10 @@ function CompleteExamples() {
                 direta da política do meu estado. Hoje estou aqui desafiando o sistema político
                 desse país, onde a mulher é sub-representada e quase que não encontra espaço
                 para participar deste ambiente.
+                <br/><br />
+                É isso...
+                Espero poder contar com a sua confiança para continuar a minha trajetória 
+                nessa caminhada. <b><i>Obrigada! Vamos juntos!</i></b>
               </h5>
             </Col>
           </Row>
@@ -53,4 +57,4 @@ function CompleteExamples() {
   );
 }
 
-export default CompleteExamples;
+export default AboutMe;

@@ -132,7 +132,7 @@ function IndexNavbar() {
                   <p className="d-lg-none d-xl-none">Twitter</p>
                 </NavLink>
                 <UncontrolledTooltip target="#twitter-tooltip">
-                  Follow us on Twitter
+                  Nos siga no Twitter
                 </UncontrolledTooltip>
               </NavItem>
               <NavItem>

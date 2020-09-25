@@ -26,7 +26,7 @@ function Tabs() {
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">Tabs with Icons on Card</p>
+              <p className="category">Nossas Bandeiras</p>
               <Card>
                 <CardHeader>
                   <Nav className="justify-content-center" role="tablist" tabs>
@@ -40,7 +40,7 @@ function Tabs() {
                         }}
                       >
                         <i className="now-ui-icons objects_umbrella-13"></i>
-                        Home
+                        Cultura
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -53,7 +53,7 @@ function Tabs() {
                         }}
                       >
                         <i className="now-ui-icons shopping_cart-simple"></i>
-                        Profile
+                        Educação
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -66,7 +66,7 @@ function Tabs() {
                         }}
                       >
                         <i className="now-ui-icons shopping_shop"></i>
-                        Messages
+                        Igualdade de Gênero
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -79,7 +79,7 @@ function Tabs() {
                         }}
                       >
                         <i className="now-ui-icons ui-2_settings-90"></i>
-                        Settings
+                        Sustentabilidade
                       </NavLink>
                     </NavItem>
                   </Nav>

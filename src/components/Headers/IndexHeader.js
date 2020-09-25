@@ -33,37 +33,15 @@ function IndexHeader() {
           ref={pageHeader}
         ></div>
         <Container>
-          <div className="content-center brand">
+          <div className="content-center">
             <img
-              alt="..."
+              alt="..." width="60%"
               className="n-logo"
-              src={require("assets/img/now-logo.png")}
+              src={require("assets/img/logo_s.png")}
             ></img>
-            <h1 className="h1-seo">Rozania Macedo Pré-Candidata a Vereadora de Salvador</h1>
-            <h3>Sempre em busca de uma melhor qualidade de vida para os baianos.</h3>
+            <h2>Por um Mundo Mais Harmonioso</h2>
+            <h3>Em busca de uma melhor qualidade de vida para os baianos</h3>
           </div>
-          <h6 className="category category-absolute">
-            Designed by{" "}
-            <a href="http://invisionapp.com/?ref=creativetim" target="_blank">
-              <img
-                alt="..."
-                className="invision-logo"
-                src={require("assets/img/invision-white-slim.png")}
-              ></img>
-            </a>
-            . Coded by{" "}
-            <a
-              href="https://www.creative-tim.com?ref=nukr-index-header"
-              target="_blank"
-            >
-              <img
-                alt="..."
-                className="creative-tim-logo"
-                src={require("assets/img/creative-tim-white-slim2.png")}
-              ></img>
-            </a>
-            .
-          </h6>
         </Container>
       </div>
     </>

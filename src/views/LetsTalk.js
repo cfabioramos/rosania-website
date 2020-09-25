@@ -19,10 +19,11 @@ import {
 
 // core components
 
-function SignUp() {
+function LetsTalk() {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
   const [emailFocus, setEmailFocus] = React.useState(false);
+  const [messageFocus, setMessageFocus] = React.useState(false);
   return (
     <>
       <div
@@ -40,34 +41,36 @@ function SignUp() {
               <Form action="" className="form" method="">
                 <CardHeader className="text-center">
                   <CardTitle className="title-up" tag="h3">
-                    Sign Up
+                    Queremos te Ouvir
                   </CardTitle>
                   <div className="social-line">
-                    <Button
-                      className="btn-neutral btn-icon btn-round"
-                      color="facebook"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-facebook-square"></i>
-                    </Button>
-                    <Button
-                      className="btn-neutral btn-icon btn-round"
-                      color="twitter"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                      size="lg"
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
-                    <Button
-                      className="btn-neutral btn-icon btn-round"
-                      color="google"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-google-plus"></i>
-                    </Button>
+                    {/*
+                            <Button
+                            className="btn-neutral btn-icon btn-round"
+                            color="facebook"
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                            >
+                            <i className="fab fa-facebook-square"></i>
+                            </Button>
+                            <Button
+                            className="btn-neutral btn-icon btn-round"
+                            color="twitter"
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                            size="lg"
+                            >
+                            <i className="fab fa-twitter"></i>
+                            </Button>
+                            <Button
+                            className="btn-neutral btn-icon btn-round"
+                            color="google"
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                            >
+                            <i className="fab fa-google-plus"></i>
+                            </Button>
+                          */}
                   </div>
                 </CardHeader>
                 <CardBody>
@@ -82,7 +85,7 @@ function SignUp() {
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      placeholder="First Name..."
+                      placeholder="Primeiro Nome..."
                       type="text"
                       onFocus={() => setFirstFocus(true)}
                       onBlur={() => setFirstFocus(false)}
@@ -95,11 +98,11 @@ function SignUp() {
                   >
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
-                        <i className="now-ui-icons text_caps-small"></i>
+                        <i className="now-ui-icons users_circle-08"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      placeholder="Last Name..."
+                      placeholder="Último Nome..."
                       type="text"
                       onFocus={() => setLastFocus(true)}
                       onBlur={() => setLastFocus(false)}
@@ -108,8 +111,7 @@ function SignUp() {
                   <InputGroup
                     className={
                       "no-border" + (emailFocus ? " input-group-focus" : "")
-                    }
-                  >
+                    }>
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
                         <i className="now-ui-icons ui-1_email-85"></i>
@@ -122,6 +124,17 @@ function SignUp() {
                       onBlur={() => setEmailFocus(false)}
                     ></Input>
                   </InputGroup>
+                  <InputGroup
+                    className={
+                      "no-border" + (messageFocus ? " input-group-focus" : "")
+                    }>
+                    <Input
+                      placeholder="Escreva aqui a sua mensagem..."
+                      type="textarea"
+                      onFocus={() => setMessageFocus(true)}
+                      onBlur={() => setMessageFocus(false)}
+                    ></Input>
+                  </InputGroup>
                 </CardBody>
                 <CardFooter className="text-center">
                   <Button
@@ -129,9 +142,8 @@ function SignUp() {
                     color="info"
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
-                    size="lg"
-                  >
-                    Get Started
+                    size="lg">
+                    Enviar
                   </Button>
                 </CardFooter>
               </Form>
@@ -155,4 +167,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default LetsTalk;

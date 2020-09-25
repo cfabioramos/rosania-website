@@ -118,6 +118,8 @@ now-ui-kit-react
     ├── index.js
     └── views
         ├── Index.js
+        ├── AboutMe.js
+        ├── LetsTalk
         ├── NucleoIcons.js
         ├── examples
         │   ├── LandingPage.js
@@ -126,7 +128,6 @@ now-ui-kit-react
         └── index-sections
             ├── BasicElements.js
             ├── Carousel.js
-            ├── CompleteExamples.js
             ├── Download.js
             ├── Examples.js
             ├── Images.js
@@ -135,7 +136,6 @@ now-ui-kit-react
             ├── Notifications.js
             ├── NucleoIcons.js
             ├── Pagination.js
-            ├── SignUp.js
             ├── Tabs.js
             └── Typography.js
 ```
